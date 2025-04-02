@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/webgrip/searxng-application/compare/1.0.1...1.0.2) (2025-04-02)
+
+
+### Bug Fixes
+
+* **workflows:** Set the host anchor ([799d522](https://github.com/webgrip/searxng-application/commit/799d522bcf5db727416a0a5e1cb3214997ed6b16))
+
 ## [1.0.1](https://github.com/webgrip/searxng-application/compare/1.0.0...1.0.1) (2025-04-02)
 
 
