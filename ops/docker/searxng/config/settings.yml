@@ -1,0 +1,18 @@
+# see https://docs.searxng.org/admin/engines/settings.html#use-default-settings
+use_default_settings: true
+server:
+  # base_url is defined in the SEARXNG_BASE_URL environment variable
+  secret_key: "change_this"
+  bind_adddress: "[::]"
+  limiter: false
+  image_proxy: true
+general:
+  debug: true
+search:
+  formats:
+    - html
+    - json
+ui:
+  static_use_hash: true
+redis:
+  url: redis://redis:6379/0

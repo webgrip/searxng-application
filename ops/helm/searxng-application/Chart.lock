@@ -1,0 +1,7 @@
+
+dependencies:
+- name: searxng
+  repository: https://charts.searxng.org
+  version: 1.0.1
+digest: sha256:ba11f715c11b38d8d087cb79bccc1610ca351284cd2ab4cbbe6414825f28b3ec
+generated: "2025-04-02T17:33:42.836558+02:00"

@@ -1,0 +1,40 @@
+namespace: searxng-application
+
+_shared_config:
+  hostname: &hostname searxng.staging.k8s.webgrip.nl
+  url: &url https://searxng.staging.k8s.webgrip.nl
+
+searxng:
+  image:
+    repository: webgrip/searxng-application
+    tag: "latest"
+    pullPolicy: Always
+
+  ingress:
+    main:
+      enabled: true
+      ingressClassName: ingress-traefik
+      annotations:
+        cert-manager.io/cluster-issuer: letsencrypt-traefik
+        traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-basic-auth@kubernetescrd"
+      hosts:
+        - host:
+          paths:
+            - "/"
+      tls:
+        - secretName: letsencrypt-searxng-application
+          hosts:
+            - *hostname
+
+  redis:
+    enabled: true
+
+  env:
+    TZ: Europe/Amsterdam
+    INSTANCE_NAME: searxng-application
+    BASE_URL: *url
+    SEARXNG_SECRET:
+      valueFrom:
+        secretKeyRef:
+          name: searxng-application-secrets
+          key: searxng-secret

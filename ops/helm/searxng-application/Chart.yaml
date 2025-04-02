@@ -1,0 +1,10 @@
+apiVersion: v2
+name: searxng-application
+description: "Helm Chart for deploying SearxNG on Kubernetes, a privacy-respecting, hackable metasearch engine."
+type: application
+version: 0.1.0
+appVersion: "1.81.4"
+dependencies:
+  - name: searxng
+    version: 1.0.1
+    repository: https://charts.searxng.org
