@@ -10,6 +10,13 @@ searxng:
     tag: "latest"
     pullPolicy: Always
 
+  searxng:
+    config:
+      search:
+        formats:
+          - html
+          - jsons
+
   service:
     main:
       ports:
