@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/webgrip/searxng-application/compare/1.0.9...1.0.10) (2025-04-02)
+
+
+### Bug Fixes
+
+* **searxng:** Allow json ([b5e0ae2](https://github.com/webgrip/searxng-application/commit/b5e0ae2737b27e1fbe32defe39e68bb35325adcb))
+
 ## [1.0.9](https://github.com/webgrip/searxng-application/compare/1.0.8...1.0.9) (2025-04-02)
 
 
