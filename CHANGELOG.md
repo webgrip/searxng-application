@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/webgrip/searxng-application/compare/1.0.5...1.0.6) (2025-04-02)
+
+
+### Bug Fixes
+
+* **workflows:** Set to port 80 ([ffd2e0b](https://github.com/webgrip/searxng-application/commit/ffd2e0bdfd59b3ac444029b6881825d7c8b5f4d0))
+
 ## [1.0.5](https://github.com/webgrip/searxng-application/compare/1.0.4...1.0.5) (2025-04-02)
 
 
