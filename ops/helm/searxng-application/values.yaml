@@ -43,6 +43,7 @@ searxng:
     TZ: Europe/Amsterdam
     INSTANCE_NAME: searxng-application
     BASE_URL: *url
+    SEARXNG_REDIS_URL: redis://redis.searxng-application.svc.cluster.local:6379/0
     SEARXNG_SECRET:
       valueFrom:
         secretKeyRef:

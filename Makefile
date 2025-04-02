@@ -32,3 +32,6 @@ endif
 	@echo "Decrypting secrets..."
 	@SOPS_AGE_KEY="$$(cat ./age.agekey)" \
 		sops --decrypt $(SECRETS_DIR)/values.sops.yaml > $(SECRETS_DIR)/values.dec.yaml
+
+expose:
+	kubectl -n searxng-application port-forward service/searxng 8080:8080
