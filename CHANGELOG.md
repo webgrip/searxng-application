@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/webgrip/searxng-application/compare/1.0.10...1.0.11) (2025-04-02)
+
+
+### Bug Fixes
+
+* **searxng:** json... Not jsons ([13203fa](https://github.com/webgrip/searxng-application/commit/13203fa63d725bdfe0e6d887c8d5b5c70d2aa2ef))
+* **searxng:** Set real redis in-cluster host ([61082e2](https://github.com/webgrip/searxng-application/commit/61082e2bd9d5d81758460a92a9b1013b3c07f1fe))
+
 ## [1.0.10](https://github.com/webgrip/searxng-application/compare/1.0.9...1.0.10) (2025-04-02)
 
 
