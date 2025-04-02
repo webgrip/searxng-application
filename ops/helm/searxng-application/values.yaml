@@ -18,7 +18,7 @@ searxng:
         cert-manager.io/cluster-issuer: letsencrypt-traefik
         traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-basic-auth@kubernetescrd"
       hosts:
-        - host:
+        - host: *hostname        # <-- Use the hostname anchor here
           paths:
             - "/"
       tls:
@@ -38,4 +38,3 @@ searxng:
         secretKeyRef:
           name: searxng-application-secrets
           key: searxng-secret
-
