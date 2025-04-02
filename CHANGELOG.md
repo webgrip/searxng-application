@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/webgrip/searxng-application/compare/1.0.8...1.0.9) (2025-04-02)
+
+
+### Bug Fixes
+
+* **searxng:** Open it up to n8n ([2e5e0af](https://github.com/webgrip/searxng-application/commit/2e5e0af24189b36ec4e3dd272489f8a6cdb310c9))
+
 ## [1.0.8](https://github.com/webgrip/searxng-application/compare/1.0.7...1.0.8) (2025-04-02)
 
 
