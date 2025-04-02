@@ -50,8 +50,8 @@ jobs:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
     with:
-      docker-context: '.'
-      docker-file: './ops/docker/searxng/Dockerfile'
+      docker-context: './ops/docker/searxng'
+      docker-file: 'Dockerfile'
       docker-tags: |
         webgrip/searxng-application:latest
         webgrip/searxng-application:${{ needs.release.outputs.version }}
