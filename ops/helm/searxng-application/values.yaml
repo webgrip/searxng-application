@@ -14,7 +14,7 @@ searxng:
     main:
       ports:
         http:
-          port: 80
+          port: 8080
 
   ingress:
     main:
@@ -30,7 +30,7 @@ searxng:
               pathType: Prefix
               service:
                 name: searxng-application
-                port: 80
+                port: 8080
       tls:
         - secretName: letsencrypt-searxng-application
           hosts:
