@@ -38,3 +38,4 @@ searxng:
         secretKeyRef:
           name: searxng-application-secrets
           key: searxng-secret
+
