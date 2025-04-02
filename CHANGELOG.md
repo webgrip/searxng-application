@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/webgrip/searxng-application/compare/1.0.4...1.0.5) (2025-04-02)
+
+
+### Bug Fixes
+
+* **workflows:** Link the path to the http port ([5de4303](https://github.com/webgrip/searxng-application/commit/5de4303b6288445b37052c228db563f4b00ec2f1))
+
 ## [1.0.4](https://github.com/webgrip/searxng-application/compare/1.0.3...1.0.4) (2025-04-02)
 
 
