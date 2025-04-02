@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/webgrip/searxng-application/compare/1.0.7...1.0.8) (2025-04-02)
+
+
+### Bug Fixes
+
+* **searxng:** Explicitly bind address to 0.0.0.0, port to 8080, and use in-cluster redis in helm deployment through environment variable ([c813784](https://github.com/webgrip/searxng-application/commit/c8137843e3a35b4b3edcca5e818a728883ed6865))
+
 ## [1.0.7](https://github.com/webgrip/searxng-application/compare/1.0.6...1.0.7) (2025-04-02)
 
 
