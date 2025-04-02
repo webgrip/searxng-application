@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/webgrip/searxng-application/compare/1.0.3...1.0.4) (2025-04-02)
+
+
+### Bug Fixes
+
+* **workflows:** Set the service port to 80 ([de3d174](https://github.com/webgrip/searxng-application/commit/de3d1748130ad0b3b060e72831d2d54188d87f6f))
+
 ## [1.0.3](https://github.com/webgrip/searxng-application/compare/1.0.2...1.0.3) (2025-04-02)
 
 
