@@ -29,7 +29,7 @@ searxng:
       ingressClassName: ingress-traefik
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-traefik
-#        traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-basic-auth@kubernetescrd"
+        traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-home-ip-allow-list@kubernetescrd,ingress-traefik-office-ip-allow-list@kubernetescrd"
       hosts:
         - host: *hostname
           paths:
