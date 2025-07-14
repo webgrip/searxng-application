@@ -20,7 +20,7 @@ enter:
 ## Encrypt values.yaml -> values.sops.yaml in the specified directory
 encrypt-secrets:
 ifndef SECRETS_DIR
-	$(error SECRETS_DIR is not set. Usage: mamkke encrypt-secrets SECRETS_DIR=./path/to/secrets)
+	$(error SECRETS_DIR is not set. Usage: make encrypt-secrets SECRETS_DIR=./path/to/secrets)
 endif
 	sops --encrypt --age $$(cat age.pubkey) $(SECRETS_DIR)/values.dec.yaml > $(SECRETS_DIR)/values.sops.yaml
 	@echo "Encrypted: $(SECRETS_DIR)/values.dec.yaml -> $(SECRETS_DIR)/values.sops.yaml"
