@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/webgrip/searxng-application/compare/1.2.1...1.2.2) (2025-08-26)
+
+
+### Bug Fixes
+
+* no idea why but this seems to be what's needed ([2a640d4](https://github.com/webgrip/searxng-application/commit/2a640d4b3c05b746e680cb0f809fbf74f1ea9815))
+* test ([fd2befe](https://github.com/webgrip/searxng-application/commit/fd2befe4cefd5bfb66e2bcd80290ffbc6d08e90e))
+
 ## [1.2.1](https://github.com/webgrip/searxng-application/compare/1.2.0...1.2.1) (2025-08-26)
 
 
