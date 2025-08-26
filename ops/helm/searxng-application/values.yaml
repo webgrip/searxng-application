@@ -29,6 +29,7 @@ searxng:
     main:
       ports:
         main:
+          enabled: true
           port: 8080
           protocol: http
 
