@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/webgrip/searxng-application/compare/1.2.0...1.2.1) (2025-08-26)
+
+
+### Bug Fixes
+
+* put enabled in main ([988d458](https://github.com/webgrip/searxng-application/commit/988d4583a275bdc8da5adda0bc3cd537b08e8fa7))
+
 # [1.2.0](https://github.com/webgrip/searxng-application/compare/1.1.0...1.2.0) (2025-08-26)
 
 
