@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/webgrip/searxng-application/compare/1.1.0...1.2.0) (2025-08-26)
+
+
+### Features
+
+* use the truecharts  one ([3b7f7fe](https://github.com/webgrip/searxng-application/commit/3b7f7fe15aa72463b876edfb7e4b1fe027402e9e))
+
 # [1.1.0](https://github.com/webgrip/searxng-application/compare/1.0.11...1.1.0) (2025-08-26)
 
 
