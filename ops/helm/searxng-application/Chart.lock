@@ -1,7 +1,9 @@
-
 dependencies:
 - name: searxng
-  repository: https://charts.searxng.org
-  version: 1.0.1
-digest: sha256:ba11f715c11b38d8d087cb79bccc1610ca351284cd2ab4cbbe6414825f28b3ec
-generated: "2025-04-02T17:33:42.836558+02:00"
+  repository: oci://tccr.io/truecharts
+  version: 10.3.4
+- name: common-helpers
+  repository: oci://ghcr.io/webgrip/common-charts
+  version: 1.0.13
+digest: sha256:3042d10a9cf90fb175a95b76b7c1bc723b5cc254f8e8ed3fe482de1b312a8e9c
+generated: "2025-08-26T13:52:12.062818207+02:00"
