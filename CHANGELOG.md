@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/webgrip/searxng-application/compare/1.0.11...1.1.0) (2025-08-26)
+
+
+### Bug Fixes
+
+* added license ([7e46916](https://github.com/webgrip/searxng-application/commit/7e469162acc7508cbd2c4c3cc1f3e39c50ee00bf))
+
+
+### Features
+
+* give the deployment defined resources ([c283c7e](https://github.com/webgrip/searxng-application/commit/c283c7edd905d75a8e0a068e06f2c4f23200d9d1))
+
 ## [1.0.11](https://github.com/webgrip/searxng-application/compare/1.0.10...1.0.11) (2025-04-02)
 
 
