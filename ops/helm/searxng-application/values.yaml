@@ -27,10 +27,10 @@ searxng:
 
   service:
     main:
-      enabled: true
       ports:
-        http:
+        main:
           port: 8080
+          protocol: http
 
   ingress:
     main:
