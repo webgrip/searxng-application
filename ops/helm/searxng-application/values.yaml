@@ -27,6 +27,7 @@ searxng:
 
   service:
     main:
+      enabled: true
       ports:
         http:
           port: 8080
