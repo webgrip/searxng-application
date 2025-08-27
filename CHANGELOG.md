@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/webgrip/searxng-application/compare/1.3.2...1.3.3) (2025-08-27)
+
+
+### Bug Fixes
+
+* moved redis to root and don't use ip restriction ([4dbfed2](https://github.com/webgrip/searxng-application/commit/4dbfed26ba173734fabe92ac627754b57f4fef90))
+
 ## [1.3.2](https://github.com/webgrip/searxng-application/compare/1.3.1...1.3.2) (2025-08-27)
 
 
