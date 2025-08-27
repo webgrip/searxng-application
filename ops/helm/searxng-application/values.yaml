@@ -57,9 +57,15 @@ searxng:
         secretKeyRef:
           name: searxng-application-secrets
           key: searxng-secret
+  persistence:
+    config:
+      enabled: true
+    mountPath: /etc/searxng
+    size: 2Gi
+    storageClass: "do-block-storage"
 
 redis:
-  architecture: standalone
+  architecture: replication
   auth:
     enabled: false
   master:
