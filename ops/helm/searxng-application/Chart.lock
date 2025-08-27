@@ -5,5 +5,8 @@ dependencies:
 - name: common-helpers
   repository: oci://ghcr.io/webgrip/common-charts
   version: 1.0.13
-digest: sha256:3042d10a9cf90fb175a95b76b7c1bc723b5cc254f8e8ed3fe482de1b312a8e9c
-generated: "2025-08-26T13:52:12.062818207+02:00"
+- name: redis
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 22.0.6
+digest: sha256:4e714082c4c0fa9e5c09c522454e06f3a389e443a044584706b02f03a1e817ec
+generated: "2025-08-27T18:51:56.404530759+02:00"
