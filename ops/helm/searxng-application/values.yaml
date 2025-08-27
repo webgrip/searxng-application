@@ -9,6 +9,10 @@ searxng:
     repository: webgrip/searxng-application
     tag: "latest"
     pullPolicy: Always
+  global:
+    fallbackDefaults:
+      pvcSize: 1Gi
+      storageClass: do-block-storage
 
   resources:
     limits:
@@ -46,6 +50,12 @@ searxng:
           hosts:
             - *hostname
 
+  persistence:
+    config:
+      enabled: true
+      size: 1Gi
+      storageClass: do-block-storage
+
   env:
     TZ: Europe/Amsterdam
     INSTANCE_NAME: searxng-application
@@ -57,12 +67,6 @@ searxng:
         secretKeyRef:
           name: searxng-application-secrets
           key: searxng-secret
-  persistence:
-    config:
-      enabled: true
-    mountPath: /etc/searxng
-    size: 2Gi
-    storageClass: "do-block-storage"
 
 redis:
   architecture: replication
