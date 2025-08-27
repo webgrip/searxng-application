@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/webgrip/searxng-application/compare/1.3.0...1.3.1) (2025-08-27)
+
+
+### Bug Fixes
+
+* redis should be standalone ([bcf5843](https://github.com/webgrip/searxng-application/commit/bcf58437e5efcef48217a35c270ed1c4823f9a70))
+
 # [1.3.0](https://github.com/webgrip/searxng-application/compare/1.2.2...1.3.0) (2025-08-27)
 
 
