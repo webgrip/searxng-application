@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/webgrip/searxng-application/compare/1.3.1...1.3.2) (2025-08-27)
+
+
+### Bug Fixes
+
+* moved config to env var ([ea1b2b8](https://github.com/webgrip/searxng-application/commit/ea1b2b85bca6206514849f76709bbedd017dadcb))
+
 ## [1.3.1](https://github.com/webgrip/searxng-application/compare/1.3.0...1.3.1) (2025-08-27)
 
 
