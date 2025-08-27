@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/webgrip/searxng-application/compare/1.2.2...1.3.0) (2025-08-27)
+
+
+### Features
+
+* deploy redis ([cec9fc9](https://github.com/webgrip/searxng-application/commit/cec9fc9d03f04b0f6f8244e65b23fefcca9aea30))
+
 ## [1.2.2](https://github.com/webgrip/searxng-application/compare/1.2.1...1.2.2) (2025-08-26)
 
 
