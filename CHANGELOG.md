@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/webgrip/searxng-application/compare/1.3.3...1.3.4) (2025-08-27)
+
+
+### Bug Fixes
+
+* persistence with a sane size and redis architecture fix ([635aac2](https://github.com/webgrip/searxng-application/commit/635aac297ac7f6feb53587dfe1abaf3137da2d83))
+
 ## [1.3.3](https://github.com/webgrip/searxng-application/compare/1.3.2...1.3.3) (2025-08-27)
 
 
