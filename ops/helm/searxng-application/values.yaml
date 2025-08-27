@@ -54,7 +54,15 @@ searxng:
             - *hostname
 
   redis:
-    enabled: true
+    architecture: standalone
+    auth:
+      enabled: false
+    master:
+      persistence:
+        enabled: true
+        size: 1Gi
+    replica:
+      replicaCount: 0
 
   env:
     TZ: Europe/Amsterdam
