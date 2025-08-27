@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/webgrip/searxng-application/compare/1.3.4...1.3.5) (2025-08-27)
+
+
+### Bug Fixes
+
+* fallbackdefaults for the config pvc ([33659a1](https://github.com/webgrip/searxng-application/commit/33659a168e9f7347bddff43daade58f8f3e605d7))
+
 ## [1.3.4](https://github.com/webgrip/searxng-application/compare/1.3.3...1.3.4) (2025-08-27)
 
 
