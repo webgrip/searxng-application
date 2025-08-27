@@ -32,7 +32,7 @@ searxng:
       ingressClassName: ingress-traefik
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-traefik
-        traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-home-ip-allow-list@kubernetescrd,ingress-traefik-office-ip-allow-list@kubernetescrd"
+        # traefik.ingress.kubernetes.io/router.middlewares: "ingress-traefik-ryan-home-ip-allow-list@kubernetescrd,ingress-traefik-office-ip-allow-list@kubernetescrd"
       hosts:
         - host: *hostname
           paths:
@@ -46,17 +46,6 @@ searxng:
           hosts:
             - *hostname
 
-  redis:
-    architecture: standalone
-    auth:
-      enabled: false
-    master:
-      persistence:
-        enabled: true
-        size: 1Gi
-    replica:
-      replicaCount: 0
-
   env:
     TZ: Europe/Amsterdam
     INSTANCE_NAME: searxng-application
@@ -68,3 +57,14 @@ searxng:
         secretKeyRef:
           name: searxng-application-secrets
           key: searxng-secret
+
+redis:
+  architecture: standalone
+  auth:
+    enabled: false
+  master:
+    persistence:
+      enabled: true
+      size: 1Gi
+  replica:
+    replicaCount: 0

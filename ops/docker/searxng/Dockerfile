@@ -1,3 +1,3 @@
-FROM searxng/searxng:2025.4.1-e6308b816
+FROM searxng/searxng:2025.8.27-90e602b
 
 COPY ./config /etc/searxng
