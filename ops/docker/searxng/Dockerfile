@@ -1,3 +1,3 @@
-FROM searxng/searxng:2025.8.27-90e602b
+FROM searxng/searxng:2025.8.27-90e602b@sha256:30e5b80625605a34b1b5d097a654951510b5b53741f92d4d33e590e3948868c5
 
 COPY ./config /etc/searxng
