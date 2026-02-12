@@ -7,7 +7,7 @@ _shared_config:
 searxng:
   image:
     repository: webgrip/searxng-application
-    tag: "latest"
+    tag: "latest@sha256:9b383dfc26a9026e4623a094f49325e3c656bda4b91b757012bf89b0d83ed735"
     pullPolicy: Always
   global:
     fallbackDefaults:
